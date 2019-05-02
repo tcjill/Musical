@@ -18,13 +18,17 @@
         </activity>
         <activity
             android:name=".ClassicalActivity"
-            android:label="Classical" />
+            android:label="Classical"
+            android:parentActivityName=".ClassicalActivity"/>
         <activity
             android:name=".RockActivity"
-            android:label="Rock" />
+            android:label="Rock"
+            android:parentActivityName=".ClassicalActivity" />
+
         <activity
             android:name=".PunkActivity"
-            android:label="Punk" />
+            android:label="Punk"
+            android:parentActivityName=".ClassicalActivity" />
 
     </application>
 

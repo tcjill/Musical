@@ -11,12 +11,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * {@link WordAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
+ * {@link SongAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
  * based on a data source, which is a list of {@link Song} objects.
  */
-public class WordAdapter extends ArrayAdapter<Song> {
+public class SongAdapter extends ArrayAdapter<Song> {
 
-    public WordAdapter(Context context, ArrayList<Song> songs) {
+    public SongAdapter(Context context, ArrayList<Song> songs) {
         super(context, 0, songs);
     }
 

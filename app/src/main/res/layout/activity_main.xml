@@ -12,7 +12,6 @@
         style="@style/CategoryStyle"
         android:background="@color/category_classical"
         android:text="@string/category_classical" />
-    />
 
     <TextView
         android:id="@+id/rock"
